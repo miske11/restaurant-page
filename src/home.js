@@ -10,10 +10,12 @@ export default function loadHome() {
   content.appendChild(header);
 
   cont1.appendChild(description);
+  cont1.classList.add('cont');
 
   content.appendChild(cont1);
   
   const cont2 = document.createElement('div');
+  cont2.classList.add('cont');
   const scheduleTitle = document.createElement('h3');
   scheduleTitle.textContent = 'Work schedule:';
   cont2.appendChild(scheduleTitle);

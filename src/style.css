@@ -1,0 +1,30 @@
+body {
+    background-image: url('./img/background.webp');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #451a03;
+    gap: 30px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 18px
+}
+
+.cont {
+    border: 5px solid brown;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fef08a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 150px;
+    height: 200px;
+}

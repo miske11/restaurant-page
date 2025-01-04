@@ -1,4 +1,5 @@
 import loadHome from "./home.js";
+import loadMenu from "./menu.js";
 
 loadHome();
 
@@ -12,6 +13,11 @@ homeBtn.addEventListener('click', () => {
     content.textContent = '';
     loadHome();
     
+})
+
+menuBtn.addEventListener('click', () => {
+    content.textContent = '';
+    loadMenu();
 })
 
 console.log('Server is up and running!');
